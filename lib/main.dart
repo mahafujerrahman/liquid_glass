@@ -66,6 +66,8 @@ class _BackgroundCaptureDemoState extends State<BackgroundCaptureDemo>
             ),
           ),
         ),
+
+        //---
         BackgroundCaptureWidget(
           width: 160,
           height: 160,
