@@ -59,7 +59,7 @@ class _BackgroundCaptureDemoState extends State<BackgroundCaptureDemo>
                   fit: BoxFit.cover,
                 ),
                 Image.asset(
-                  'assets/images/sample_3.jpg',
+                  'assets/images/sample_4.jpg',
                   fit: BoxFit.cover,
                 ),
               ],
@@ -67,7 +67,7 @@ class _BackgroundCaptureDemoState extends State<BackgroundCaptureDemo>
           ),
         ),
 
-        //---
+        ///====== Background Capture Widget
         BackgroundCaptureWidget(
           width: 160,
           height: 160,
@@ -75,11 +75,7 @@ class _BackgroundCaptureDemoState extends State<BackgroundCaptureDemo>
           backgroundKey: backgroundKey,
           shader: liquidGlassLensShader,
           child: Center(
-            child: Image.asset(
-              'assets/images/photo_m.png',
-              width: 72,
-              height: 72,
-            ),
+            child: Text('Liquid Glass',style: TextStyle(fontSize: 20,color: Colors.white,fontWeight: FontWeight.bold))
           ),
         ),
       ],
