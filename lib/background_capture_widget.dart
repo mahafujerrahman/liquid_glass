@@ -29,8 +29,7 @@ class BackgroundCaptureWidget extends StatefulWidget {
   final BaseShader shader;
 
   @override
-  State<BackgroundCaptureWidget> createState() =>
-      _BackgroundCaptureWidgetState();
+  State<BackgroundCaptureWidget> createState() => _BackgroundCaptureWidgetState();
 }
 
 class _BackgroundCaptureWidgetState extends State<BackgroundCaptureWidget>

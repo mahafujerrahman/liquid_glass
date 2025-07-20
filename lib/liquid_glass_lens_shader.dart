@@ -4,8 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:liquid_glass/base_shader.dart';
 
 class LiquidGlassLensShader extends BaseShader {
-  LiquidGlassLensShader()
-      : super(shaderAssetPath: 'shaders/liquid_glass_lens.frag');
+  LiquidGlassLensShader() : super(shaderAssetPath: 'shaders/liquid_glass_lens.frag');
 
   @override
   void updateShaderUniforms({
